@@ -1,8 +1,9 @@
 [package]
 name = "rust-cli-app-example"
 version = "0.1.0"
-authors = ["Mackenzie Clark <mackenzie.a.z.c@gmail.com>"]
+authors = ["The Wasmer Engineering Team <engineering@wasmer.io>"]
 edition = "2018"
+repository = "https://github.com/wasmerio/rust-cli-app-example"
 
 [dependencies]
 structopt = "0.2.14"
