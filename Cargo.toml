@@ -1,0 +1,7 @@
+[package]
+name = "rust-cli-app-example"
+version = "0.1.0"
+authors = ["Mackenzie Clark <mackenzie.a.z.c@gmail.com>"]
+edition = "2018"
+
+[dependencies]
