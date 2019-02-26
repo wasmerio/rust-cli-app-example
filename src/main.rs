@@ -10,7 +10,7 @@ struct Opt {
 fn main() {
     let opt = Opt::from_args();
     if opt.greet {
-        println!("Hello, Rust Bay Area!");
+        println!("Hello, from Wasmer!");
     }
     else {
         println!("missing something?");
