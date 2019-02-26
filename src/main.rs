@@ -1,3 +1,18 @@
+use structopt::StructOpt;
+
+#[derive(StructOpt, Debug)]
+#[structopt(name = "demo")]
+struct Opt {
+    #[structopt(short = "g", long = "greet")]
+    pub greet: bool,
+}
+
 fn main() {
-    println!("Hello, world!");
+    let opt = Opt::from_args();
+    if opt.greet {
+        println!("Hello, Rust Bay Area!");
+    }
+    else {
+        println!("missing something?");
+    }
 }
